@@ -1,8 +1,8 @@
 # Fetch-test
 
-###Fetch demo 
+### Fetch demo 
 
-####初步提供5种方法demo：
+#### 初步提供5种方法demo：
 1. POST
 2. GET
 3. PUT
@@ -10,7 +10,7 @@
 5. DELETE
 
 
-###兼容性
+### 兼容性
 >注意：由于Fetch API是基于Promise设计，旧浏览器不支持Promise，需要使用pollyfill es6-promise
 
 说明：
@@ -33,7 +33,7 @@
 		4. arrayBuffer()
 		5. formData()
 
-###兼容性
+### 兼容性
 ![Alt text](兼容性.png)
 
 > 要在不支持的浏览器中使用Fetch，可以使用[Fetch Polyfill]((http://example.net/))。
