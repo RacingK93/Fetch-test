@@ -1,6 +1,7 @@
 # Fetch-test
 
-### Fetch demo 
+### Fetch demo
+>说明：fetch 用于替代ajax,XMLHttpRequest技术，向服务器请求数据。
 
 #### 初步提供5种方法demo：
 1. POST
