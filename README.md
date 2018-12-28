@@ -12,7 +12,7 @@
 
 
 ### 兼容性
->注意：由于Fetch API是基于Promise设计，旧浏览器不支持Promise，需要使用pollyfill es6-promise
+>注意：由于Fetch API是基于Promise设计，旧浏览器不支持Promise，需要使用pollyfill [es6-promise](https://www.npmjs.com/package/es6-promise)
 
 说明：
 1. fetch api返回的是一个promise对象
