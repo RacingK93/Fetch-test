@@ -20,8 +20,8 @@
 	 2. body(String): HTTP的请求参数
 	 3. headers(Object): HTTP的请求头，默认为{}
 	 4. credentials(String): 默认为omit,忽略的意思，也就是不带cookie;还有两个参数，same-origin，意思就是同源请求带cookie；include,表示无论跨域还是同源请求都会带cookie
-3. 第一个then函数里面处理的是response的格式，这里的response具体如下：  
-![Alt text](https://upload-images.jianshu.io/upload_images/6522842-08395937b2f4d695.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp"Optional title")
+3. 第一个then函数里面处理的是response的格式，这里的response具体如下：    
+![Alt text](https://upload-images.jianshu.io/upload_images/6522842-08395937b2f4d695.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
 	1. status(number): HTTP返回的状态码，范围在100-599之间
 	2. statusText(String): 服务器返回的状态文字描述，例如Unauthorized,上图中返回的是Ok
 	3. ok(Boolean): 如果状态码是以2开头的，则为true
