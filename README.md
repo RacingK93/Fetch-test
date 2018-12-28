@@ -37,7 +37,7 @@
 ### 兼容性
 ![Alt text](兼容性.png)
 
-> 要在不支持的浏览器中使用Fetch，可以使用[Fetch Polyfill](http://example.net/)。
+> 要在不支持的浏览器中使用Fetch，可以使用[Fetch Polyfill](https://github.com/github/fetch)。
 
 
 
